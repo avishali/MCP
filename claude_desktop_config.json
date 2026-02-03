@@ -1,0 +1,24 @@
+
+{
+ 	 "mcpServers": {
+  	  "melech_dsp": {
+   	   "command": "python3",
+      "args": [
+        "/Users/avishaylidani/DEV/GitHubRepo/MCP/dsp_algorithms_server/server.py"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    },
+    "juce_docs": {
+      "command": "python3",
+      "args": [
+           "/Users/avishaylidani/DEV/GitHubRepo/MCP/juce_api_server/server.py"
+  ],
+  "env": {
+    "PYTHONUNBUFFERED": "1"
+  }
+    }
+  }
+}
+ 

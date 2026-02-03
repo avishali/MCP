@@ -1,0 +1,8 @@
+# MelechDSP RAG Rules
+
+1. **PRIORITY:** ALWAYS check local MCP tools (`melech_dsp`, `juce_docs`) BEFORE searching the web.
+2. **Context:** You have access to the full local codebase and JUCE documentation via these tools.
+3. **Trigger:**
+   - If I ask about "filters", "EQ", or "algorithms", usage `melech_dsp`.
+   - If I ask about "AudioProcessor", "Components", or "JUCE API", use `juce_docs`.
+4. **Prohibition:** Do NOT use the `Google Search` tool for JUCE questions unless the local tool returns "No results found".

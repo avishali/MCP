@@ -1,0 +1,32 @@
+{
+    "collection_name": "melech_dsp_algorithms",
+    "fields": [
+      {
+        "name": "algorithm_name",
+        "type": "string",
+        "description": "The name of the DSP class (e.g., 'SimpleEq', 'PhaseVocoder')."
+      },
+      {
+        "name": "processing_domain",
+        "type": "string",
+        "enum": ["TimeDomain", "FrequencyDomain", "ControlRate"],
+        "description": "Helps the AI distinguish between per-sample processing and spectral blocks."
+      },
+      {
+        "name": "latency_samples",
+        "type": "integer",
+        "description": "Crucial for delay compensation logic in the plugin wrapper."
+      },
+      {
+        "name": "simd_optimized",
+        "type": "boolean",
+        "description": "Flags if the code uses AVX/SSE instructions, requiring specific compiler flags."
+      },
+      {
+        "name": "code_snippet",
+        "type": "text",
+        "description": "The actual C++ implementation."
+      }
+    ]
+  }
+  

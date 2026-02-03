@@ -1,0 +1,26 @@
+{
+    "collection_name": "melech_project_structure",
+    "fields": [
+      {
+        "name": "project_name",
+        "type": "string",
+        "description": "e.g., 'AnalyzerPro', 'VoxScript', 'SharedCode'"
+      },
+      {
+        "name": "file_role",
+        "type": "string",
+        "enum": ["Processor", "Editor", "Service", "Config"],
+        "description": "Helps the AI find the right file to modify."
+      },
+      {
+        "name": "file_path",
+        "type": "string",
+        "description": "The absolute path so Cursor can open it directly."
+      },
+      {
+        "name": "dependencies",
+        "type": "list",
+        "description": "List of included headers (e.g., ['juce_dsp', 'SimpleEq.h'])."
+      }
+    ]
+  }

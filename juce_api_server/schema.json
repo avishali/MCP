@@ -1,0 +1,26 @@
+{
+    "collection_name": "juce_official_docs",
+    "fields": [
+      {
+        "name": "class_name",
+        "type": "string",
+        "description": "e.g., 'juce::AudioProcessorValueTreeState'"
+      },
+      {
+        "name": "module",
+        "type": "string",
+        "enum": ["juce_audio_processors", "juce_core", "juce_dsp", "juce_gui_basics"],
+        "description": "Helps filter searches. If you ask for 'UI', it ignores 'juce_core'."
+      },
+      {
+        "name": "inheritance",
+        "type": "string",
+        "description": "e.g., 'Inherits from: AudioProcessorListener, ChangeBroadcaster'. Critical for knowing which overrides are mandatory."
+      },
+      {
+        "name": "api_signature",
+        "type": "text",
+        "description": "The raw class declaration or function signatures."
+      }
+    ]
+  }
