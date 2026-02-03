@@ -1,0 +1,81 @@
+FINAL .gitignore
+================
+# Secrets (do not commit)
+.env
+.env.*
+!.env.example
+claude_desktop_config.json
+
+# Local config (machine-specific paths)
+config/local_paths.json
+
+# Caches and bytecode
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated indexes (run ingest scripts to create)
+juce_api_server/juce_docs.json
+dsp_algorithms_server/dsp_index.json
+melech_internal_server/project_structure.json
+
+# Dependencies and venvs
+node_modules/
+.venv/
+venv/
+env/
+
+# IDE / OS
+.DS_Store
+*.swp
+*.swo
+Untitled
+
+
+FINAL .env.example
+==================
+# Copy to .env and fill with real values. Do not commit .env.
+
+# OpenAI (required for juce-rag-server agent/stress_test and melech_internal_server)
+OPENAI_API_KEY=
+
+# Chroma Cloud (required for juce-rag-server only)
+CHROMA_HOST=
+CHROMA_API_KEY=
+CHROMA_TENANT=
+CHROMA_DATABASE=
+
+
+FINAL claude_desktop_config.example.json
+========================================
+{
+  "mcpServers": {
+    "melech_dsp": {
+      "command": "python3",
+      "args": ["/path/to/MCP/dsp_algorithms_server/server.py"],
+      "env": { "PYTHONUNBUFFERED": "1" }
+    },
+    "juce_docs": {
+      "command": "python3",
+      "args": ["/path/to/MCP/juce_api_server/server.py"],
+      "env": { "PYTHONUNBUFFERED": "1" }
+    }
+  }
+}
+
+
+CODE FILES CHANGED AND WHY
+==========================
+juce-rag-server/server.py — Added runtime check for CHROMA_HOST, CHROMA_API_KEY, CHROMA_TENANT, CHROMA_DATABASE; SystemExit with clear message if any missing. (No hardcoded keys; already used os.getenv.)
+juce-rag-server/agent.py — Added runtime check for OPENAI_API_KEY before creating OpenAI client; SystemExit if not set.
+juce-rag-server/stress_test.py — Same as agent.py: runtime check for OPENAI_API_KEY before creating client.
+
+
+SHELL COMMANDS (MCP repo already has git; use to stage and commit sanitization)
+===============================================================================
+cd /Users/avishaylidani/DEV/GitHubRepo/MCP
+git add .gitignore .env.example claude_desktop_config.example.json config/local_paths.example.json dsp_algorithms_server/ juce_api_server/ juce-rag-server/ melech_internal_server/ README.md .cursorrules MCP.code-workspace
+git add juce-rag-server/server.py juce-rag-server/agent.py juce-rag-server/stress_test.py
+git status
+git commit -m "chore: sanitize MCP repo for publish — .gitignore secrets/indexes, .env.example, claude_desktop_config.example.json, runtime env checks in juce-rag-server"

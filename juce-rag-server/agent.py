@@ -3,10 +3,12 @@ import os
 from openai import OpenAI
 from dotenv import load_dotenv
 
-load_dotenv() # Ensure OPENAI_API_KEY is in your .env
+load_dotenv()
 
-# Initialize OpenAI
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+_api_key = os.getenv("OPENAI_API_KEY")
+if not _api_key:
+    raise SystemExit("OPENAI_API_KEY is not set. Copy .env.example to .env and set OPENAI_API_KEY.")
+client = OpenAI(api_key=_api_key)
 
 def retrieve_docs(query, k=5):
     """Asks your local RAG server for context"""

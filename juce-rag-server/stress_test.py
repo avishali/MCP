@@ -4,7 +4,10 @@ from openai import OpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+_api_key = os.getenv("OPENAI_API_KEY")
+if not _api_key:
+    raise SystemExit("OPENAI_API_KEY is not set. Copy .env.example to .env and set OPENAI_API_KEY.")
+client = OpenAI(api_key=_api_key)
 
 # 1. The "Trap" Question
 # We act naive and ask for a buffer, tempting it to use a dynamic vector.

@@ -8,6 +8,11 @@ from dotenv import load_dotenv
 # 1. Load the Cloud credentials from .env
 load_dotenv()
 
+_REQUIRED = ("CHROMA_HOST", "CHROMA_API_KEY", "CHROMA_TENANT", "CHROMA_DATABASE")
+_missing = [k for k in _REQUIRED if not os.getenv(k)]
+if _missing:
+    raise SystemExit(f"Missing required env: {', '.join(_missing)}. Copy .env.example to .env and set values.")
+
 app = FastAPI(title="JUCE Cloud RAG Server")
 
 # --- CONFIGURATION ---
