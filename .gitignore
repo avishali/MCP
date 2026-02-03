@@ -34,3 +34,19 @@ __pycache__/
 *.swp
 *.swo
 Untitled
+
+# local secrets
+.env
+**/.env
+
+# local secrets
+.env
+**/.env
+
+# local secrets
+.env
+**/.env
+
+# secrets
+.env
+**/.env
