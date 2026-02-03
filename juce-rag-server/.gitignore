@@ -1,0 +1,36 @@
+# Secrets (do not commit)
+.env
+.env.*
+!.env.example
+claude_desktop_config.json
+
+# Local config (machine-specific paths)
+config/local_paths.json
+
+# Caches and bytecode
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated indexes (run ingest scripts to create)
+juce_api_server/juce_docs.json
+dsp_algorithms_server/dsp_index.json
+melech_internal_server/project_structure.json
+
+# Dependencies and venvs
+node_modules/
+.venv/
+venv/
+env/
+.venv/
+.env
+**/.env
+**/venv/
+__pycache__/
+*.pyc
+# IDE / OS
+.DS_Store
+*.swp
+*.swo
+Untitled
