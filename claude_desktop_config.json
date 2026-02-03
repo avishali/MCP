@@ -2,7 +2,7 @@
 {
  	 "mcpServers": {
   	  "melech_dsp": {
-   	   "command": "python3",
+   	   "command": "/Users/avishaylidani/DEV/GitHubRepo/MCP/.venv/bin/python",
       "args": [
         "/Users/avishaylidani/DEV/GitHubRepo/MCP/dsp_algorithms_server/server.py"
       ],
@@ -11,7 +11,7 @@
       }
     },
     "juce_docs": {
-      "command": "python3",
+      "command": "/Users/avishaylidani/DEV/GitHubRepo/MCP/.venv/bin/python",
       "args": [
            "/Users/avishaylidani/DEV/GitHubRepo/MCP/juce_api_server/server.py"
   ],

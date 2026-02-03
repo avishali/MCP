@@ -23,7 +23,12 @@ node_modules/
 .venv/
 venv/
 env/
-
+.venv/
+.env
+**/.env
+**/venv/
+__pycache__/
+*.pyc
 # IDE / OS
 .DS_Store
 *.swp

@@ -1,46 +1,50 @@
-from mcp.server.fastmcp import FastMCP
-import json
+#!/usr/bin/env python3
+
 import os
+from mcp.server.fastmcp import FastMCP
 
-# 1. Initialize Server
-mcp = FastMCP("JUCE API Docs")
+# ===============================
+# MCP Setup
+# ===============================
 
-# 2. Load the Index
-DB_PATH = os.path.join(os.path.dirname(__file__), "juce_docs.json")
+SERVER_NAME = "JUCE API Docs"
 
-def load_db():
-    try:
-        with open(DB_PATH, "r") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        return []
+mcp = FastMCP(SERVER_NAME)
 
-juce_data = load_db()
 
-# 3. Define the Search Tool
+# ===============================
+# Tools
+# ===============================
+
 @mcp.tool()
-def search_juce_docs(class_name: str) -> str:
+def health() -> str:
     """
-    Search the official JUCE API for class definitions, inheritance, and methods.
-    Use this to verify function signatures (e.g., 'Does AudioProcessor have a processBlock?').
+    Health check for MCP clients (Cursor / Claude).
     """
-    results = []
-    query = class_name.lower().replace("juce::", "")
-    
-    for entry in juce_data:
-        # Match class name exactly or partially
-        if query in entry['class_name'].lower():
-            results.append(
-                f"Class: {entry['class_name']}\n"
-                f"Module: {entry['module']}\n"
-                f"Inherits: {entry['inheritance']}\n"
-                f"Snippet:\n{entry['api_signature'][:800]}..." # 800 chars gives enough context
-            )
-            
-    if not results:
-        return "No matching JUCE class found."
-        
-    return "\n---\n".join(results[:2]) # Return top 2 matches to save tokens
+    return f"{SERVER_NAME} OK"
+
+
+@mcp.tool()
+def juce_class(name: str) -> str:
+    """
+    Simple JUCE API lookup stub.
+    Replace this with your real JUCE index / RAG logic.
+    """
+    name = (name or "").strip()
+    if not name:
+        return "Please provide a JUCE class name."
+
+    return (
+        f"JUCE class '{name}'\n\n"
+        "This server is running correctly.\n"
+        "Hook this tool to your JUCE docs index or RAG backend next."
+    )
+
+
+# ===============================
+# Entry Point
+# ===============================
 
 if __name__ == "__main__":
+    print("JUCE API MCP server running (stdio). Waiting for client...", flush=True)
     mcp.run()

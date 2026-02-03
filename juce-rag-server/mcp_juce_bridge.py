@@ -1,49 +1,43 @@
 from mcp.server.fastmcp import FastMCP
 import requests
-import sys
+import os
 
-# 1. Create the MCP Server
-# "JUCE Docs" is the name the AI will see
-mcp = FastMCP("JUCE Docs")
+mcp = FastMCP("JUCE RAG")
 
-# 2. Define the RAG Server URL
-RAG_SERVER_URL = "http://localhost:8000/search"
+RAG_SERVER_URL = os.getenv(
+    "JUCE_RAG_URL",
+    "http://127.0.0.1:8000/search"
+)
+
 
 @mcp.tool()
-def search_juce_docs(query: str) -> str:
+def search_juce_docs(query: str, k: int = 5) -> str:
     """
-    Search the official JUCE C++ framework documentation. 
-    Use this whenever you need to write JUCE code, check class names, 
-    verify function signatures, or understand best practices.
+    Semantic search over JUCE docs via the local HTTP RAG server.
     """
     try:
-        # Send the query to your running server.py
-        response = requests.post(
-            RAG_SERVER_URL, 
-            json={"query": query, "k": 5},
-            timeout=10
-        )
-        response.raise_for_status()
-        data = response.json()
-        
-        # Format the results for the AI
+        resp = requests.post(RAG_SERVER_URL, json={"query": query, "k": k}, timeout=15)
+        if resp.status_code != 200:
+            return f"RAG server error {resp.status_code}: {resp.text}"
+
+        data = resp.json()
         results = data.get("results", [])
         if not results:
             return "No relevant documentation found."
-            
-        formatted_text = ""
+
+        out = []
         for item in results:
             source = item.get("source", "Unknown")
-            content = item.get("content", "").strip()
-            formatted_text += f"\n--- SOURCE: {source} ---\n{content}\n"
-            
-        return formatted_text
+            content = (item.get("content", "") or "").strip()
+            if content:
+                out.append(f"--- SOURCE: {source} ---\n{content}")
 
+        return "\n\n".join(out) if out else "No relevant documentation found."
     except requests.exceptions.ConnectionError:
-        return "Error: Could not connect to the local RAG server. Is 'server.py' running on port 8000?"
+        return "Error: cannot connect to RAG HTTP server. Start: juce-rag-server/server.py"
     except Exception as e:
-        return f"Error searching docs: {str(e)}"
+        return f"Error searching docs: {e}"
+
 
 if __name__ == "__main__":
-    # This runs the MCP server over standard input/output (stdio)
     mcp.run()

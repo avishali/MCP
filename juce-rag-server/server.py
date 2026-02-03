@@ -1,87 +1,104 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
 import os
-import chromadb
+from typing import Any, Dict, List, Optional
+
+from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from langchain_huggingface import HuggingFaceEmbeddings
-from dotenv import load_dotenv
+import uvicorn
 
-# 1. Load the Cloud credentials from .env
+# Optional: only needed if you actually configure Chroma.
+# pip install chromadb
+try:
+    import chromadb  # type: ignore
+except Exception:
+    chromadb = None  # type: ignore
+
+
 load_dotenv()
 
-_REQUIRED = ("CHROMA_HOST", "CHROMA_API_KEY", "CHROMA_TENANT", "CHROMA_DATABASE")
-_missing = [k for k in _REQUIRED if not os.getenv(k)]
-if _missing:
-    raise SystemExit(f"Missing required env: {', '.join(_missing)}. Copy .env.example to .env and set values.")
+APP_HOST = os.getenv("JUCE_RAG_HTTP_HOST", "127.0.0.1")
+APP_PORT = int(os.getenv("JUCE_RAG_HTTP_PORT", "8000"))
 
-app = FastAPI(title="JUCE Cloud RAG Server")
+CHROMA_HOST = os.getenv("CHROMA_HOST", "").strip()
+CHROMA_API_KEY = os.getenv("CHROMA_API_KEY", "").strip()
+CHROMA_TENANT = os.getenv("CHROMA_TENANT", "").strip()
+CHROMA_DATABASE = os.getenv("CHROMA_DATABASE", "").strip()
+JUCE_RAG_COLLECTION = os.getenv("JUCE_RAG_COLLECTION", "juce_docs").strip()
 
-# --- CONFIGURATION ---
-COLLECTION_NAME = "docs_juce_com"
+# If you want a local fallback later, define JUCE_RAG_LOCAL_DIR and implement ingestion.
+JUCE_RAG_LOCAL_DIR = os.getenv("JUCE_RAG_LOCAL_DIR", "").strip()
+
+app = FastAPI(title="JUCE RAG Server", version="1.0")
 
 
-# ⚠️ THE FIX IS HERE:
-# Qwen3-Embedding-0.6B has a default dimension of 1024.
-MODEL_NAME = "Qwen/Qwen3-Embedding-0.6B"
-
-print(f"⏳ Loading Embedding Model: {MODEL_NAME}...")
-embedding_function = HuggingFaceEmbeddings(
-    model_name=MODEL_NAME,
-    model_kwargs={'device': 'cpu',
-                  'trust_remote_code': True  }, # Use 'cuda' if you have a GPU
-    encode_kwargs={'normalize_embeddings': True}
-    
-)
-print("✅ Model Loaded.")
-
-# 2. Connect to Chroma Cloud
-# We use HttpClient for remote/cloud instances
-try:
-    client = chromadb.HttpClient(
-        host=os.getenv("CHROMA_HOST"),
-        port=443,
-        ssl=True,
-        headers={
-            "x-chroma-token": os.getenv("CHROMA_API_KEY")
-        },
-        tenant=os.getenv("CHROMA_TENANT"),
-        database=os.getenv("CHROMA_DATABASE")
-    )
-    print(f"✅ Connected to Chroma Cloud (DB: {os.getenv('CHROMA_DATABASE')})")
-except Exception as e:
-    print(f"❌ Connection Failed: {e}")
-    raise
-
-class QueryRequest(BaseModel):
+class SearchRequest(BaseModel):
     query: str
     k: int = 5
 
+
+def _chroma_client():
+    if chromadb is None:
+        raise RuntimeError("chromadb is not installed. Run: pip install chromadb")
+
+    if not CHROMA_HOST:
+        return None
+
+    # This is intentionally conservative: if you’re using Chroma Cloud, you’ll
+    # likely use an HttpClient with auth headers. Keep it simple for now.
+    # Adjust based on your actual Chroma deployment.
+    #
+    # For many hosted setups, something like:
+    # chromadb.HttpClient(host=..., port=..., ssl=True, headers={...})
+    #
+    # Here we treat CHROMA_HOST as host:port or host only.
+    return chromadb.HttpClient(host=CHROMA_HOST)
+
+
 @app.post("/search")
-async def search_docs(request: QueryRequest):
-    try:
-        collection = client.get_collection(name=COLLECTION_NAME)
+def search(req: SearchRequest) -> Dict[str, Any]:
+    q = (req.query or "").strip()
+    k = max(1, min(int(req.k or 5), 20))
 
-        # Embed query using the local HuggingFace model
-        query_vector = embedding_function.embed_query(request.query)
+    if not q:
+        raise HTTPException(status_code=400, detail="query is required")
 
-        results = collection.query(
-            query_embeddings=[query_vector],
-            n_results=request.k,
-            include=["documents", "metadatas"]
-        )
+    # 1) Try Chroma if configured
+    if CHROMA_HOST:
+        try:
+            client = _chroma_client()
+            if client is None:
+                raise RuntimeError("CHROMA_HOST set but client is None")
 
-        formatted_results = []
-        if results['documents']:
-            for i in range(len(results['documents'][0])):
-                formatted_results.append({
-                    "content": results['documents'][0][i],
-                    "source": results['metadatas'][0][i].get("source", "unknown")
-                })
+            col = client.get_or_create_collection(JUCE_RAG_COLLECTION)
+            res = col.query(query_texts=[q], n_results=k)
 
-        return {"results": formatted_results}
+            # Normalize results to {source, content}
+            out: List[Dict[str, str]] = []
+            docs = (res.get("documents") or [[]])[0]
+            metas = (res.get("metadatas") or [[]])[0]
 
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+            for i, doc in enumerate(docs):
+                meta = metas[i] if i < len(metas) else {}
+                source = "Unknown"
+                if isinstance(meta, dict):
+                    source = str(meta.get("source", meta.get("path", "Unknown")))
+                out.append({"source": source, "content": str(doc)})
+
+            return {"results": out}
+        except Exception as e:
+            raise HTTPException(status_code=500, detail=f"Chroma query failed: {e}")
+
+    # 2) No Chroma configured -> fail loudly (so you immediately know why it’s empty)
+    raise HTTPException(
+        status_code=500,
+        detail=(
+            "RAG backend not configured. Set CHROMA_HOST (+ credentials) "
+            "or implement local mode via JUCE_RAG_LOCAL_DIR."
+        ),
+    )
 
 if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run("server:app", host=APP_HOST, port=APP_PORT, reload=False)

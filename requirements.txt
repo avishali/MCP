@@ -1,0 +1,15 @@
+# Core MCP
+mcp
+
+# HTTP RAG backend
+fastapi
+uvicorn
+requests
+python-dotenv
+pydantic
+
+# Vector store (choose what you actually use)
+chromadb
+
+# Utilities
+tqdm

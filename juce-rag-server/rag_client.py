@@ -33,6 +33,7 @@ def get_juce_context(query: str, max_results: int = 5) -> str:
         return ""
 
 
+
 # --- Example Usage ---
 # user_prompt = "Write a C++ class that inherits from AudioProcessor"
 # docs = get_juce_context(user_prompt)
