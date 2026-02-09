@@ -8,7 +8,7 @@ MelechDSP MCP Environment Setup
    python -m pip install -r requirements.txt
 
 2) Run MCP servers (stdio)
-   MCP/.venv/bin/python <server_path>/server.py
+   MCP/.venv/bin/python MCP/server.py
 
 3) Run JUCE RAG HTTP backend (port 8000)
    cd MCP/juce-rag-server
