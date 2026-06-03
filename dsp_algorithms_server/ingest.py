@@ -23,7 +23,13 @@ def scan_files():
 
     print(f"Scanning {SOURCE_DIR}...")
     
-    for root, _, files in os.walk(SOURCE_DIR):
+    for root, dirs, files in os.walk(SOURCE_DIR):
+        dirs[:] = [
+            d for d in dirs
+            if d not in {".git", ".venv", "__pycache__"}
+            and "build" not in d.lower()
+        ]
+
         for file in files:
             if file.endswith((".h", ".cpp", ".hpp")):
                 filepath = os.path.join(root, file)
@@ -33,6 +39,7 @@ def scan_files():
                     
                     entry = {
                         "algorithm_name": file.split(".")[0],
+                        "source_path": filepath,
                         "processing_domain": detect_domain(content),
                         "latency_samples": 0,
                         "simd_optimized": "__m128" in content or "vDSP" in content,

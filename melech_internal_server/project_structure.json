@@ -1,938 +1,1436 @@
 [
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Config",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/CMakeLists.txt",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/CMakeLists.txt",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
-    "file_role": "Config",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/ui_core/CMakeLists.txt",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/ui_core/UiCore.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/ui_core/UiCore.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Editor",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/PluginEditor.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/Source/PluginEditor.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Processor",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/PluginProcessor.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/Source/PluginProcessor.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Processor",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/PluginProcessor.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/Source/PluginProcessor.cpp",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Editor",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/PluginEditor.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/Source/PluginEditor.cpp",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/ControlPanel.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/Source/ui/MainView.cpp",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/MainView.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/Source/ui/MasterLimiterLookAndFeel.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/ControlPanel.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/Source/ui/MasterLimiterLookAndFeel.cpp",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/MainView.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/Source/ui/MainView.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/layout/HeaderBar.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/Source/ui/loudness/LoudnessNumericPanel.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/layout/DraggableParamValueLabel.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/Source/ui/loudness/LoudnessNumericPanel.cpp",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/layout/DraggableParamValueLabel.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/Source/ui/meters/MeterGroupComponent.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/layout/FooterBar.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/Source/ui/meters/MeterGroupComponent.cpp",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/layout/HeaderBar.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/Source/ui/meters/GainReductionMeter.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/layout/ControlRail.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/Source/ui/meters/GainReductionMeter.cpp",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/layout/FooterBar.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/Source/ui/meters/MeterComponent.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/layout/ControlRail.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/Source/ui/meters/MeterComponent.cpp",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/loudness/LoudnessNumericPanel.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/Source/util/PlatformOcclusion.mm",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/loudness/LoudnessNumericPanel.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/Source/util/PlatformOcclusion.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/meters/MeterGroupComponent.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/Source/parameters/Parameters.cpp",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/meters/MeterGroupComponent.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/Source/parameters/ParameterIDs.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/meters/MeterComponent.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/Source/parameters/Parameters.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/meters/MeterComponent.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/views/PhaseScopePlaceholder.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/views/AnalyzerGridPlaceholder.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/views/PhaseCorrelationView.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/views/PhaseCorrelationView.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/views/AnalyzerGridPlaceholder.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/views/PhaseScopePlaceholder.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/tooltips/TooltipData.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/tooltips/TooltipOverlayComponent.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/tooltips/TooltipOverlayComponent.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/tooltips/TooltipManager.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/tooltips/TooltipManager.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/analyzer/StereoScopeView.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/analyzer/StereoScopeView.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/analyzer/AnalyzerDisplayView.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/analyzer/AnalyzerDisplayView.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/analyzer/rta1_import/RTADisplay.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/ui/analyzer/rta1_import/RTADisplay.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/hardware/SoftwareMeterSink.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/hardware/PluginHardwareAdapter.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/hardware/PluginHardwareOutputAdapter.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/hardware/HardwareMeterMapper.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/hardware/PluginHardwareOutputAdapter.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/hardware/HardwareMeterMapper.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/hardware/IHardwareMeterSink.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/hardware/SoftwareMeterSink.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/hardware/PluginHardwareAdapter.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/config/DevFlags.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/state/StateManager.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/state/PresetManager.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/state/StateManager.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/state/PresetManager.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/audio/DeviceRoutingHelper.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/audio/DeviceRoutingHelper.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/parameters/Parameters.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/parameters/Parameters.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/presets/ABStateManager.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/presets/PresetManager.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/presets/ABStateManager.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/presets/PresetManager.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/dsp/loudness/LoudnessAnalyzer.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/dsp/loudness/LoudnessAnalyzer.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/analyzer/StereoScopeAnalyzer.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/analyzer/AnalyzerSnapshot.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/analyzer/AnalyzerEngine.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/analyzer/AnalyzerEngine.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/analyzer/StereoScopeAnalyzer.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/control/AnalyzerProParamIdMap.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/control/AnalyzerProControlContext.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/control/AnalyzerProParamIdMap.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/control/ControlSpecs.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/control/ControlIds.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/control/ControlBinder.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/control/ControlSpecs.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/control/AnalyzerProControlContext.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/Source/control/ControlBinder.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Config",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/smoke_test/CMakeLists.txt",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/CMakeLists.txt",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/smoke_test/Source/Main.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Config",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_dsp/CMakeLists.txt",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_dsp/CMakeLists.txt",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_dsp/include/mdsp_dsp/Smoother.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_dsp/include/mdsp_dsp/MeterBallistics.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_dsp/include/mdsp_dsp/loudness/LoudnessAnalyzer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_dsp/include/mdsp_dsp/spectrogram/SpectrogramAccumulator.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_dsp/include/mdsp_dsp/spectrogram/SpectrogramSettings.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_dsp/include/mdsp_dsp/scopes/StereoScopeAnalyzer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_dsp/include/mdsp_dsp/analyzer/AnalyzerSnapshot.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_dsp/include/mdsp_dsp/analyzer/AnalyzerEngine.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_dsp/src/Smoother.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_dsp/src/MeterBallistics.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_dsp/src/loudness/LoudnessAnalyzer.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_dsp/src/spectrogram/SpectrogramAccumulator.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_dsp/src/scopes/StereoScopeAnalyzer.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_dsp/src/analyzer/AnalyzerEngine.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Config",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_core/CMakeLists.txt",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_core/include/mdsp_core/Version.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_core/include/mdsp_core/Assert.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_core/include/mdsp_core/containers/AudioBufferQueue.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_core/src/Version.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_core/src/containers/AudioBufferQueue.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Config",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_gui/CMakeLists.txt",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/dsp.bak/AnalyzerSettings.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/components/SpectrumComponent.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/components/SpectrogramShaders.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/components/SpectrogramColors.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/components/SpectrogramComponent.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/components/LogFrequencyMapper.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/common/SnapshotPump.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/dsp/AnalyzerSettings.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
     "file_role": "Processor",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_dsp/include/SineWaveProcessor.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/dsp/SpectrumProcessor.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_dsp/include/mdsp_dsp/Smoother.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/analyzer/AnalyzerDisplayWidget.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_dsp/include/mdsp_dsp/MeterBallistics.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/analyzer/RTADisplay.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/analyzer/AnalyzerRenderStateBuilder.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_gui/src/components/SpectrogramComponent.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_gui/src/components/LogFrequencyMapper.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_gui/src/components/SpectrumComponent.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
     "file_role": "Processor",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_dsp/src/SineWaveProcessor.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_gui/src/dsp/SpectrumProcessor.cpp",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_dsp/src/Smoother.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_gui/src/analyzer/RTADisplay.cpp",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_dsp/src/MeterBallistics.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_gui/src/analyzer/AnalyzerRenderStateBuilder.cpp",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_gui/src/analyzer/AnalyzerDisplayWidget.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/melech_spectral/Melech_SpectralFingerprint.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/melech_spectral/Test_SpectralMatching.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/melech_spectral/Melech_SpectralComparator.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
     "file_role": "Config",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_core/CMakeLists.txt",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/CMakeLists.txt",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_core/include/mdsp_core/Version.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/LegendRenderer.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_core/include/mdsp_core/Assert.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/Theme.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_core/include/mdsp_core/containers/AudioBufferQueue.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/PeakSnapController.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_core/src/Version.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/CursorReadoutRenderer.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_core/src/containers/AudioBufferQueue.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/ThemeTokens.generated.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
-    "file_role": "Config",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_gui/CMakeLists.txt",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/components/SpectrumComponent.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/HoverPairController.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_gui/src/components/SpectrumComponent.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/ThemeVariant.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
-    "file_role": "Config",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/CMakeLists.txt",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/LegendRenderer.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/TextOverlayRenderer.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/Theme.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/Typography.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/PeakSnapController.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/ButtonStyle.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/CursorReadoutRenderer.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/IconCache.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/HoverPairController.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/ScaleLabelRenderer.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/ThemeVariant.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/AxisRenderer.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/TextOverlayRenderer.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/AreaFillRenderer.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/Typography.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/ButtonPaint.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/ScaleLabelRenderer.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/ValueReadoutRenderer.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/AxisRenderer.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/FocusRing.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/AreaFillRenderer.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/GridRenderer.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/ValueReadoutRenderer.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/IconIds.generated.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/FocusRing.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/MarkerRenderer.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/GridRenderer.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/SeriesRenderer.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/MarkerRenderer.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/BarsRenderer.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/SeriesRenderer.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/UiContext.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/BarsRenderer.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/Metrics.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/UiContext.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/IconPaint.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/Metrics.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/PlotFrameRenderer.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/PlotFrameRenderer.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/AxisHoverController.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/AxisHoverController.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/AxisInteraction.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/AxisInteraction.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/LookAndFeel.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/LookAndFeel.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/FftPathBuilder.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/controls/SliderRow.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/HoverInteractionModel.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/controls/SectionHeader.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/BackgroundGridCache.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/controls/ChoiceRow.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/BackgroundGridPainter.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/controls/ToggleRow.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/MultiTraceSpec.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/GridRenderer.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/LogPathBuilder.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/PeakSnapController.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/MultiTracePainter.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/AxisInteraction.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/RTAEnums.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/ScaleLabelRenderer.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/BandsModePainter.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/LegendRenderer.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/RTADisplayInvalidationPolicy.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/TextOverlayRenderer.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/MultiTraceState.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/CursorReadoutRenderer.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/RTADisplayModel.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/MarkerRenderer.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/MultiTraceViewModel.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/LookAndFeel.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/AxisLayoutModel.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/PlotFrameRenderer.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/RtaPaintUtils.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/Theme.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/RTADisplayCacheCoordinator.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/UiContext.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/RTACurveHelpers.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/AxisHoverController.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/RTADisplayRenderer.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/FocusRing.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/LogModePainter.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/SeriesRenderer.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/RTADisplayController.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/HoverPairController.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/CrosshairPainter.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/BarsRenderer.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/FftModePainter.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/ValueReadoutRenderer.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/RTAGeometry.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/AxisRenderer.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/FftHoverController.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/controls/ChoiceRow.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/AxisInteractionController.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/controls/ToggleRow.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/MultiTracePathCache.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/controls/SectionHeader.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/HoverReadoutModel.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/shared/mdsp_ui/src/controls/SliderRow.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/controls/CollapsibleSection.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/templates/plugin_ui/MainView.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/controls/CollapsibleArrowComponent.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/controls/SliderRow.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/controls/SectionHeader.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/controls/FloatingIconPanel.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/controls/ChoiceRow.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/controls/ToggleRow.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/MeterTypes.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/MeterValueModel.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/MeterRenderer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/PeakHoldModel.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/MeterRenderStateProvider.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/GainReductionRenderStateProvider.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/MeterRenderState.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/GainReductionRenderState.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/MeterBallistics.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/dev/MeterDemoComponent.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/widgets/LevelMeter.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/widgets/StereoMeter.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/widgets/GainReductionMeter.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/scopes/PhaseFanRenderStateProvider.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/scopes/StereoScopeRenderState.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/scopes/PhaseFanRenderState.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/scopes/StereoScopeRenderStateProvider.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/analyzer/AnalyzerComponent.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/analyzer/FftBinMapping.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/analyzer/AnalyzerSessionPolicy.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/analyzer/AnalyzerController.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/analyzer/AnalyzerRenderState.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/analyzer/AnalyzerRenderer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/analyzer/AnalyzerRenderStateProvider.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/GridRenderer.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/PeakSnapController.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/AxisInteraction.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/ScaleLabelRenderer.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/IconPaint.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/IconCache.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/ButtonStyle.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/LegendRenderer.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/TextOverlayRenderer.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/CursorReadoutRenderer.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/ThemeTokens.generated.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/MarkerRenderer.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/LookAndFeel.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/PlotFrameRenderer.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/Theme.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/UiContext.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/ButtonPaint.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/AxisHoverController.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/FocusRing.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/SeriesRenderer.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/HoverPairController.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/BarsRenderer.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/ValueReadoutRenderer.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/AxisRenderer.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/ui/theme/ThemeTokens.generated.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/ui/theme/ThemeTokens.generated.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/BandsModePainter.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/HoverInteractionModel.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/BackgroundGridPainter.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/AxisInteractionController.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/RtaPaintUtils.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/FftPathBuilder.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/AxisLayoutModel.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/BackgroundGridCache.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/MultiTracePathCache.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/LogModePainter.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/RTAGeometry.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/HoverReadoutModel.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/RTADisplayCacheCoordinator.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/RTADisplayController.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/FftModePainter.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/FftHoverController.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/MultiTracePainter.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/RTADisplayRenderer.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/RTADisplayModel.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/LogPathBuilder.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/CrosshairPainter.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/RTACurveHelpers.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/rta/RTADisplayInvalidationPolicy.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/controls/CollapsibleArrowComponent.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/controls/ChoiceRow.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/controls/ToggleRow.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/controls/SectionHeader.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/controls/SliderRow.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/controls/CollapsibleSection.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/controls/FloatingIconPanel.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/meters/MeterValueModel.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/meters/MeterRenderer.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/meters/PeakHoldModel.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/meters/GainReductionRenderStateProvider.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/meters/MeterBallistics.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/meters/MeterRenderStateProvider.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/meters/dev/MeterDemoComponent.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/meters/dev/MeterDemoApp.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/meters/widgets/GainReductionMeter.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/meters/widgets/LevelMeter.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/meters/widgets/StereoMeter.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/scopes/StereoScopeRenderStateProvider.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/scopes/PhaseFanRenderStateProvider.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/analyzer/AnalyzerSessionPolicy.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/analyzer/AnalyzerRenderer.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/analyzer/AnalyzerRenderStateProvider.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/analyzer/AnalyzerComponent.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/analyzer/AnalyzerController.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/shared/mdsp_ui/src/analyzer/FftBinMapping.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
     "file_role": "Editor",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/templates/plugin_ui/PluginEditor.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/templates/plugin-docs-skeleton/PluginEditor_template.cpp",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/templates/plugin_ui/PlaceholderRegion.h",
+    "project_name": "MasterLimiter",
+    "file_role": "Processor",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/templates/plugin-docs-skeleton/PluginProcessor_template.h",
     "dependencies": []
   },
   {
-    "project_name": "AnalyzerPro",
-    "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/templates/plugin_ui/MainView.h",
-    "dependencies": []
-  },
-  {
-    "project_name": "AnalyzerPro",
+    "project_name": "MasterLimiter",
     "file_role": "Editor",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro/third_party/melechdsp-hq/templates/plugin_ui/PluginEditor.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/templates/plugin-docs-skeleton/PluginEditor_template.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "MasterLimiter",
+    "file_role": "Processor",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter/third_party/melechdsp-hq/templates/plugin-docs-skeleton/PluginProcessor_template.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Config",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/CMakeLists.txt",
     "dependencies": []
   },
   {
     "project_name": "melechdsp-hq",
     "file_role": "Config",
     "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/smoke_test/CMakeLists.txt",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/smoke_test/Source/probe_dsp.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/smoke_test/Source/probe_ui.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/smoke_test/Source/probe_gui.cpp",
     "dependencies": []
   },
   {
@@ -962,6 +1460,72 @@
   {
     "project_name": "melechdsp-hq",
     "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_dsp/include/mdsp_dsp/dynamics/IspTrimStage.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_dsp/include/mdsp_dsp/dynamics/LookaheadDelay.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_dsp/include/mdsp_dsp/dynamics/TruePeakDetector.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_dsp/include/mdsp_dsp/dynamics/LimiterEnvelope.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_dsp/include/mdsp_dsp/dynamics/PeakDetector.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_dsp/include/mdsp_dsp/loudness/LoudnessAnalyzer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_dsp/include/mdsp_dsp/spectrogram/SpectrogramAccumulator.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_dsp/include/mdsp_dsp/spectrogram/SpectrogramSettings.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_dsp/include/mdsp_dsp/scopes/StereoScopeAnalyzer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_dsp/include/mdsp_dsp/analyzer/AnalyzerSnapshot.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_dsp/include/mdsp_dsp/analyzer/AnalyzerEngine.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
     "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_dsp/src/Smoother.cpp",
     "dependencies": []
   },
@@ -969,6 +1533,48 @@
     "project_name": "melechdsp-hq",
     "file_role": "Service",
     "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_dsp/src/MeterBallistics.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_dsp/src/dynamics/LimiterEnvelope.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_dsp/src/dynamics/IspTrimStage.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_dsp/src/dynamics/TruePeakDetector.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_dsp/src/loudness/LoudnessAnalyzer.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_dsp/src/spectrogram/SpectrogramAccumulator.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_dsp/src/scopes/StereoScopeAnalyzer.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_dsp/src/analyzer/AnalyzerEngine.cpp",
     "dependencies": []
   },
   {
@@ -1016,13 +1622,133 @@
   {
     "project_name": "melechdsp-hq",
     "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/dsp.bak/AnalyzerSettings.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
     "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/components/SpectrumComponent.h",
     "dependencies": []
   },
   {
     "project_name": "melechdsp-hq",
     "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/components/SpectrogramShaders.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/components/SpectrogramColors.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/components/SpectrogramComponent.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/components/LogFrequencyMapper.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/common/SnapshotPump.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/dsp/AnalyzerSettings.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Processor",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/dsp/SpectrumProcessor.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/analyzer/AnalyzerDisplayWidget.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/analyzer/RTADisplay.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_gui/include/mdsp_gui/analyzer/AnalyzerRenderStateBuilder.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_gui/src/components/SpectrogramComponent.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_gui/src/components/LogFrequencyMapper.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
     "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_gui/src/components/SpectrumComponent.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Processor",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_gui/src/dsp/SpectrumProcessor.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_gui/src/analyzer/RTADisplay.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_gui/src/analyzer/AnalyzerRenderStateBuilder.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_gui/src/analyzer/AnalyzerDisplayWidget.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/melech_spectral/Melech_SpectralFingerprint.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/melech_spectral/Test_SpectralMatching.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/melech_spectral/Melech_SpectralComparator.h",
     "dependencies": []
   },
   {
@@ -1058,6 +1784,12 @@
   {
     "project_name": "melechdsp-hq",
     "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/ThemeTokens.generated.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
     "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/HoverPairController.h",
     "dependencies": []
   },
@@ -1082,6 +1814,18 @@
   {
     "project_name": "melechdsp-hq",
     "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/ButtonStyle.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/IconCache.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
     "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/ScaleLabelRenderer.h",
     "dependencies": []
   },
@@ -1100,6 +1844,12 @@
   {
     "project_name": "melechdsp-hq",
     "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/ButtonPaint.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
     "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/ValueReadoutRenderer.h",
     "dependencies": []
   },
@@ -1113,6 +1863,12 @@
     "project_name": "melechdsp-hq",
     "file_role": "Service",
     "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/GridRenderer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/IconIds.generated.h",
     "dependencies": []
   },
   {
@@ -1148,6 +1904,12 @@
   {
     "project_name": "melechdsp-hq",
     "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/IconPaint.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
     "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/PlotFrameRenderer.h",
     "dependencies": []
   },
@@ -1172,6 +1934,180 @@
   {
     "project_name": "melechdsp-hq",
     "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/FftPathBuilder.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/HoverInteractionModel.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/BackgroundGridCache.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/BackgroundGridPainter.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/MultiTraceSpec.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/LogPathBuilder.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/MultiTracePainter.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/RTAEnums.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/BandsModePainter.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/RTADisplayInvalidationPolicy.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/MultiTraceState.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/RTADisplayModel.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/MultiTraceViewModel.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/AxisLayoutModel.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/RtaPaintUtils.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/RTADisplayCacheCoordinator.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/RTACurveHelpers.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/RTADisplayRenderer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/LogModePainter.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/RTADisplayController.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/CrosshairPainter.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/FftModePainter.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/RTAGeometry.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/FftHoverController.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/AxisInteractionController.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/MultiTracePathCache.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/rta/HoverReadoutModel.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/controls/CollapsibleSection.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/controls/CollapsibleArrowComponent.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
     "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/controls/SliderRow.h",
     "dependencies": []
   },
@@ -1184,6 +2120,12 @@
   {
     "project_name": "melechdsp-hq",
     "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/controls/FloatingIconPanel.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
     "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/controls/ChoiceRow.h",
     "dependencies": []
   },
@@ -1191,6 +2133,150 @@
     "project_name": "melechdsp-hq",
     "file_role": "Service",
     "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/controls/ToggleRow.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/MeterTypes.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/MeterValueModel.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/MeterRenderer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/PeakHoldModel.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/MeterRenderStateProvider.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/GainReductionRenderStateProvider.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/MeterRenderState.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/GainReductionRenderState.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/MeterBallistics.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/dev/MeterDemoComponent.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/widgets/LevelMeter.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/widgets/StereoMeter.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/meters/widgets/GainReductionMeter.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/scopes/PhaseFanRenderStateProvider.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/scopes/StereoScopeRenderState.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/scopes/PhaseFanRenderState.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/scopes/StereoScopeRenderStateProvider.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/analyzer/AnalyzerComponent.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/analyzer/FftBinMapping.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/analyzer/AnalyzerSessionPolicy.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/analyzer/AnalyzerController.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/analyzer/AnalyzerRenderState.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/analyzer/AnalyzerRenderer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/include/mdsp_ui/analyzer/AnalyzerRenderStateProvider.h",
     "dependencies": []
   },
   {
@@ -1220,6 +2306,24 @@
   {
     "project_name": "melechdsp-hq",
     "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/IconPaint.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/IconCache.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/ButtonStyle.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
     "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/LegendRenderer.cpp",
     "dependencies": []
   },
@@ -1233,6 +2337,12 @@
     "project_name": "melechdsp-hq",
     "file_role": "Service",
     "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/CursorReadoutRenderer.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/ThemeTokens.generated.cpp",
     "dependencies": []
   },
   {
@@ -1263,6 +2373,12 @@
     "project_name": "melechdsp-hq",
     "file_role": "Service",
     "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/UiContext.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/ButtonPaint.cpp",
     "dependencies": []
   },
   {
@@ -1310,6 +2426,162 @@
   {
     "project_name": "melechdsp-hq",
     "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/ui/theme/ThemeTokens.generated.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/ui/theme/ThemeTokens.generated.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/BandsModePainter.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/HoverInteractionModel.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/BackgroundGridPainter.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/AxisInteractionController.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/RtaPaintUtils.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/FftPathBuilder.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/AxisLayoutModel.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/BackgroundGridCache.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/MultiTracePathCache.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/LogModePainter.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/RTAGeometry.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/HoverReadoutModel.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/RTADisplayCacheCoordinator.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/RTADisplayController.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/FftModePainter.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/FftHoverController.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/MultiTracePainter.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/RTADisplayRenderer.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/RTADisplayModel.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/LogPathBuilder.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/CrosshairPainter.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/RTACurveHelpers.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/rta/RTADisplayInvalidationPolicy.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/controls/CollapsibleArrowComponent.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
     "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/controls/ChoiceRow.cpp",
     "dependencies": []
   },
@@ -1334,31 +2606,523 @@
   {
     "project_name": "melechdsp-hq",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/templates/plugin_ui/MainView.cpp",
-    "dependencies": []
-  },
-  {
-    "project_name": "melechdsp-hq",
-    "file_role": "Editor",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/templates/plugin_ui/PluginEditor.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/controls/CollapsibleSection.cpp",
     "dependencies": []
   },
   {
     "project_name": "melechdsp-hq",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/templates/plugin_ui/PlaceholderRegion.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/controls/FloatingIconPanel.cpp",
     "dependencies": []
   },
   {
     "project_name": "melechdsp-hq",
     "file_role": "Service",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/templates/plugin_ui/MainView.h",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/meters/MeterValueModel.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/meters/MeterRenderer.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/meters/PeakHoldModel.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/meters/GainReductionRenderStateProvider.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/meters/MeterBallistics.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/meters/MeterRenderStateProvider.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/meters/dev/MeterDemoComponent.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/meters/dev/MeterDemoApp.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/meters/widgets/GainReductionMeter.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/meters/widgets/LevelMeter.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/meters/widgets/StereoMeter.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/scopes/StereoScopeRenderStateProvider.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/scopes/PhaseFanRenderStateProvider.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/analyzer/AnalyzerSessionPolicy.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/analyzer/AnalyzerRenderer.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/analyzer/AnalyzerRenderStateProvider.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/analyzer/AnalyzerComponent.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/analyzer/AnalyzerController.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/shared/mdsp_ui/src/analyzer/FftBinMapping.cpp",
     "dependencies": []
   },
   {
     "project_name": "melechdsp-hq",
     "file_role": "Editor",
-    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/templates/plugin_ui/PluginEditor.cpp",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/TEMPLATES/plugin-docs-skeleton/PluginEditor_template.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Processor",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/TEMPLATES/plugin-docs-skeleton/PluginProcessor_template.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Editor",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/TEMPLATES/plugin-docs-skeleton/PluginEditor_template.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Processor",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/TEMPLATES/plugin-docs-skeleton/PluginProcessor_template.cpp",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_dsp/Smoother.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_dsp/MeterBallistics.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_dsp/spectrogram/SpectrogramAccumulator.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_dsp/spectrogram/SpectrogramSettings.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_dsp/analyzer/AnalyzerSnapshot.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_dsp/analyzer/AnalyzerEngine.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_core/Version.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_core/Assert.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_core/containers/AudioBufferQueue.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_gui/dsp.bak/AnalyzerSettings.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_gui/components/SpectrumComponent.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_gui/components/SpectrogramShaders.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_gui/components/SpectrogramColors.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_gui/components/SpectrogramComponent.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_gui/components/LogFrequencyMapper.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_gui/dsp/AnalyzerSettings.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Processor",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_gui/dsp/SpectrumProcessor.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/LegendRenderer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/Theme.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/PeakSnapController.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/CursorReadoutRenderer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/ThemeTokens.generated.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/HoverPairController.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/ThemeVariant.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/TextOverlayRenderer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/Typography.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/ButtonStyle.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/IconCache.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/ScaleLabelRenderer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/AxisRenderer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/AreaFillRenderer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/ButtonPaint.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/ValueReadoutRenderer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/FocusRing.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/GridRenderer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/IconIds.generated.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/MarkerRenderer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/SeriesRenderer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/BarsRenderer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/UiContext.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/Metrics.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/IconPaint.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/PlotFrameRenderer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/AxisHoverController.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/AxisInteraction.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/LookAndFeel.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/rta/RTAEnums.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/rta/RTADisplayModel.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/rta/RTACurveHelpers.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/rta/RTADisplayRenderer.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/rta/RTADisplayController.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/rta/RTAGeometry.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/controls/CollapsibleSection.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/controls/CollapsibleArrowComponent.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/controls/SliderRow.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/controls/SectionHeader.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/controls/ChoiceRow.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/controls/ToggleRow.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/analyzer/AnalyzerComponent.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/analyzer/AnalyzerController.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/analyzer/AnalyzerRenderState.h",
+    "dependencies": []
+  },
+  {
+    "project_name": "melechdsp-hq",
+    "file_role": "Service",
+    "file_path": "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq/_install/include/mdsp_ui/analyzer/AnalyzerRenderer.h",
     "dependencies": []
   }
 ]

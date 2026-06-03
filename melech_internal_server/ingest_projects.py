@@ -4,6 +4,7 @@ import json
 # CONFIGURATION: Scan both your plugin and your library
 PROJECT_PATHS = [
     "/Users/avishaylidani/DEV/GitHubRepo/AnalyzerPro",
+    "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/MasterLimiter",
     "/Users/avishaylidani/DEV/GitHubRepo/MelechDSP/melechdsp-hq"
 ]
 OUTPUT_FILE = "project_structure.json"
@@ -27,6 +28,12 @@ def scan_projects():
 
         for root, dirs, files in os.walk(project_root):
             # Skip build folders and hidden git folders to save time
+            dirs[:] = [
+                d for d in dirs
+                if d not in {".git", ".venv", "__pycache__"}
+                and "build" not in d.lower()
+            ]
+
             if "build" in root.lower() or ".git" in root:
                 continue
 
